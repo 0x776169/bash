@@ -1,4 +1,4 @@
-<h1> Variable [Bool] <h1>
+<h1> Variable [Bool] </h1>
 
 En __bash__, *la __[variable booléenne](https://fr.wikipedia.org/wiki/Bool%C3%A9en)__ est comme dans les autres langages mais nous n'avons pas besoin de préciser < bool > comme en c# par exemple, on pourrait mais on en a pas besoin*
 
@@ -16,7 +16,7 @@ if [ "$kalm" = true ] ;
 fi
 ```
 
-<h1> Condition IF <h1>
+<h1> Condition [IF] </h1>
 
 ```BASH
 #!/bin/bash
@@ -26,9 +26,8 @@ if (( kalm == 0xkalm ));
     echo "Kalm & les conditions de if."
  
 ```
-<br>
-<br>
-<b> Exemple IF </b>
+
+<h1> Exemple IF </h1>
 
 ```BASH
 
