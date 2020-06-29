@@ -17,6 +17,7 @@ fi
 ```
 
 <h1> Condition [IF] </h1>
+<p> Les conditions sont écrites comme ça </p>
 
 ```BASH
 #!/bin/bash
