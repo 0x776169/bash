@@ -15,7 +15,7 @@ if [ "$kalm" = true ] ;
     echo "C'est vrai !"
 fi
 ```
-
+<-- -->
 <h1> Condition [IF] </h1>
 
 ```BASH
