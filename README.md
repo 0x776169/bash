@@ -47,3 +47,17 @@ elif (( gateau == "N" ));
     exit 1
 fi
 ```
+
+<h1> Condition [ELSE] </h1>
+<p> En général, la condition else, est utilisée en cas d'erreur entrée dans le champ </p>
+
+```BASH
+
+if (( pseudo == kalm ));
+        then
+        echo "Bonjour $pseudo"
+        else 
+        echo "Pseudo incorrect"
+fi 
+
+```
