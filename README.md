@@ -71,6 +71,8 @@ fi
 <h2> Boucle [FOR] Infini </h2>
 
 ```BASH
+#!/bin/bash
+
 for (( ; ; ))
 do
    echo "La boucle est infini, tu peux faire ctrl + c pour l'arrêter"
