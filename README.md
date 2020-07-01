@@ -35,7 +35,7 @@ if (( kalm == 0xkalm ));
 
 #!/bin/bash
 
-echo -n "Voulez-vous faire un gâteau ? [O/N]: " && read gateau
+echo -n "Voulez-vous un gâteau ? [O/N]: " && read gateau
 
 if (( gateau == "O" ));
     then
