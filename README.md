@@ -68,6 +68,20 @@ fi
 
 <h1> Les boucles </h1>
 
+<h2> Boucle [FOR] Répétitif <h2>
+<p> Boucle qui se répète 5 fois, puis s'arrête. </p>
+    
+```BASH
+#!/bin/bash
+
+for KALM in 1 2 3 4 5 .. N
+do
+	echo "kalm"
+	echo "le meilleur"
+	echo "développeur"
+done
+```
+
 <h2> Boucle [FOR] Infini </h2>
 
 ```BASH
