@@ -1,22 +1,3 @@
-<h1> Variable [Bool] </h1>
-
-**En** __bash__, **la [variable booléenne](https://fr.wikipedia.org/wiki/Bool%C3%A9en) est comme dans les autres langages mais nous n'avons pas besoin de préciser 
-< bool > comme en c# par exemple, on pourrait mais on en a pas besoin**
-
-Exemple : 
-
-
-```BASH
-#!/bin/bash
-
-kalm=true
-
-if [ "$kalm" = true ] ; 
-    then
-    echo "C'est vrai !"
-fi
-```
-
 <h1> Condition [IF] </h1>
 <p> Les conditions sont écrites comme ça </p>
 
@@ -60,4 +41,23 @@ if (( pseudo == kalm ));
         echo "Pseudo incorrect"
 fi 
 
+```
+
+<h1> Variable [Bool] </h1>
+
+**En** __bash__, **la [variable booléenne](https://fr.wikipedia.org/wiki/Bool%C3%A9en) est comme dans les autres langages mais nous n'avons pas besoin de préciser 
+< bool > comme en c# par exemple, on pourrait mais on en a pas besoin**
+
+Exemple : 
+
+
+```BASH
+#!/bin/bash
+
+kalm=true
+
+if [ "$kalm" = true ] ; 
+    then
+    echo "C'est vrai !"
+fi
 ```
