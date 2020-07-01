@@ -65,3 +65,12 @@ if [ "$kalm" = true ] ;
     echo "C'est vrai !"
 fi
 ```
+
+<h1> Les boucles </h1>
+
+<h2> Boucle [FOR] Infini </h2>
+
+```for (( ; ; ))
+do
+   echo "La boucle est infini, tu peux faire ctrl + c pour l'arrêter"
+done```
