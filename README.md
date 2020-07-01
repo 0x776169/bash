@@ -1,6 +1,6 @@
-<h2> Conditions </h2>
+<h1> Conditions </h1>
 
-<h1> Condition [IF] </h1>
+<h2> Condition [IF] </h2>
 <p> Les conditions sont écrites comme ça </p>
 
 ```BASH
@@ -12,7 +12,7 @@ if (( kalm == 0xkalm ));
  
 ```
 
-<h1> Exemple IF </h1>
+<h2> Exemple IF </h2>
 
 ```BASH
 
@@ -31,7 +31,7 @@ elif (( gateau == "N" ));
 fi
 ```
 
-<h1> Condition [ELSE] </h1>
+<h2> Condition [ELSE] </h2>
 <p> En général, la condition else, est utilisée en cas d'erreur entrée dans le champ </p>
 
 ```BASH
@@ -45,9 +45,9 @@ fi
 
 ```
 
-<h2> Variable </h2>
+<h1> Variable </h1>
 
-<h1> Variable [Bool] </h1>
+<h2> Variable [Bool] </h2>
 
 **En** __bash__, **la [variable booléenne](https://fr.wikipedia.org/wiki/Bool%C3%A9en) est comme dans les autres langages mais nous n'avons pas besoin de préciser 
 < bool > comme en c# par exemple, on pourrait mais on en a pas besoin**
