@@ -1,3 +1,5 @@
+<h2> Conditions </h2>
+
 <h1> Condition [IF] </h1>
 <p> Les conditions sont écrites comme ça </p>
 
@@ -42,6 +44,8 @@ if (( pseudo == kalm ));
 fi 
 
 ```
+
+<h2> Variable </h2>
 
 <h1> Variable [Bool] </h1>
 
