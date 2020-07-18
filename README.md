@@ -49,7 +49,7 @@ fi
 
 <h2> Variable [Bool] </h2>
 
-**En** __bash__, **la [variable booléenne](https://fr.wikipedia.org/wiki/Bool%C3%A9en) est comme dans les autres langages mais nous n'avons pas besoin de préciser 
+**En bash, la [variable booléenne](https://fr.wikipedia.org/wiki/Bool%C3%A9en) est comme dans les autres langages mais nous n'avons pas besoin de préciser 
 < bool > comme en c# par exemple, on pourrait mais on en a pas besoin**
 
 Exemple : 
