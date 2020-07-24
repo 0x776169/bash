@@ -1,6 +1,6 @@
 <h1> Hello World </h1>
 <h2> Simple Hello World </h2>
-<p> Afficher du text </p>
+<p> Afficher du texte </p>
 
 ```BASH
 #!/bin/bash
