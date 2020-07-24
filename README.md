@@ -127,7 +127,7 @@ print_information
 <h1> Les options </h1>
 <p> Exemple : ./programme.sh -s [file], en exécutant ça, il supprimera la file indiquée </p>
 
-```
+```BASH
 #!/bin/bash
 
 print_notfound() {
