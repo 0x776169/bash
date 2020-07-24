@@ -120,10 +120,12 @@ print_information() {
 echo $info
 echo $age
 }
+
+print_information
 ```
 
 <h1> Les options </h1>
-<p> Exemple : ./programme.sh -s [file], en exécutant ça, il supprimera la file choisie </p>
+<p> Exemple : ./programme.sh -s [file], en exécutant ça, il supprimera la file indiquée </p>
 
 ```
 #!/bin/bash
