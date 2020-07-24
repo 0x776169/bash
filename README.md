@@ -106,7 +106,7 @@ done
 ```
 
 <h1> Regroupement d'informations </h1>
-<h2> regrouper plusieurs commandes ou textes</h2>
+<h2> Regrouper plusieurs commandes ou textes</h2>
 
 ```BASH
 #!/bin/bash
