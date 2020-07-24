@@ -1,3 +1,14 @@
+<h1> Hello World </h1>
+<h2> Simple Hello World </h2>
+<p> Afficher du text </p>
+
+```BASH
+#!/bin/bash
+
+echo "Hello World"
+```
+
+
 <h1> Conditions </h1>
 
 <h2> Condition [IF] </h2>
@@ -92,4 +103,52 @@ for (( ; ; ))
 do
    echo "La boucle est infini, tu peux faire ctrl + c pour l'arrêter"
 done
+```
+
+<h1> Regroupement d'informations </h1>
+<h2> regrouper plusieurs commandes ou textes</h2>
+
+```BASH
+#!/bin/bash
+
+info="je m'appelle 0xkalm"
+age="j'ai 14 ans"
+
+
+
+print_information() {
+echo $info
+echo $age
+}```
+
+<h1> Les options </h1>
+<p> Exemple : ./programme.sh -s [file], en exécutant ça, il supprimera la file choisie </p>
+```BASH
+#!/bin/bash
+
+print_notfound() {
+echo "Cette option n'existe pas."
+}
+
+print_help() {
+echo "Usage: $0 -$OPTIONS"
+}
+
+while getopts "s:t:f:xah?:" OPTIONS; do 
+   case ${OPTIONS} in
+      s ) file=$OPTARG && rm -rf $file && reset && echo "$file a bien été supprimé" ;;
+      t ) ;;
+      f ) ;;
+      x ) ;;
+      a ) ;;
+      h ) ;;
+      ? ) print_notfound; exit 0;;
+   esac
+done
+
+
+if (( file == 'a-zA-Z0-9' ))
+     then 
+     echo "Suppression de $file"
+     fi
 ```
