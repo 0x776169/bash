@@ -130,7 +130,6 @@ print_information
 ```
 #!/bin/bash
 
-
 print_notfound() {
 echo "Cette option n'existe pas."
 }
@@ -139,15 +138,15 @@ print_help() {
 echo "Usage: $0 -$OPTIONS"
 }
 
-while getopts "s:t:f:xah?:" OPTIONS; do 
+while getopts "k:a:l:mox?:" OPTIONS; do 
    case ${OPTIONS} in
-      s ) file=$OPTARG && rm -rf $file && reset && echo "$file a bien été supprimé" ;;
-      t ) ;;
-      f ) ;;
-      x ) ;;
+      k ) file=$OPTARG && rm -rf $file && reset && echo "$file a bien été supprimé" ;;
       a ) ;;
-      h ) ;;
-      ? ) print_notfound; exit 0;;
+      l ) ;;
+      m ) ;;
+      o ) ;;
+      x ) ;;
+      ? ) clear && print_notfound; exit 0;;
    esac
 done
 
