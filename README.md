@@ -119,12 +119,15 @@ age="j'ai 14 ans"
 print_information() {
 echo $info
 echo $age
-}```
+}
+```
 
 <h1> Les options </h1>
 <p> Exemple : ./programme.sh -s [file], en exécutant ça, il supprimera la file choisie </p>
-```BASH
+
+```
 #!/bin/bash
+
 
 print_notfound() {
 echo "Cette option n'existe pas."
