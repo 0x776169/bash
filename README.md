@@ -7,6 +7,8 @@
 
 echo "Hello World"
 ```
+<hr>
+
 <h1>Opérateurs de comparaison</h1>
 
 ```BASH
@@ -64,6 +66,7 @@ elif (( gateau == "N" ));
     exit 1
 fi
 ```
+<hr>
 
 <h2> Condition [ELSE] </h2>
 <p> En général, la condition else, est utilisée en cas d'erreur entrée dans le champ </p>
@@ -78,6 +81,7 @@ if (( pseudo == kalm ));
 fi 
 
 ```
+<hr>
 
 <h1> Variable </h1>
 
@@ -99,6 +103,8 @@ if [ "$kalm" = true ] ;
     echo "C'est vrai !"
 fi
 ```
+
+<hr>
 
 <h1> Les boucles </h1>
 
@@ -128,6 +134,8 @@ do
 done
 ```
 
+<hr>
+
 <h1> Regroupement d'informations </h1>
 <h2> Regrouper plusieurs commandes ou textes</h2>
 
@@ -146,6 +154,8 @@ echo $age
 
 print_information
 ```
+
+<hr>
 
 <h1> Les options </h1>
 <p> Exemple : ./programme.sh -s [file], en exécutant ça, il supprimera le fichier indiqué </p>
@@ -179,3 +189,5 @@ if (( file == 'a-zA-Z0-9' ))
      echo "Suppression de $file"
      fi
 ```
+
+<hr>
