@@ -7,7 +7,28 @@
 
 echo "Hello World"
 ```
+<h1>Opérateurs de comparaison</h1>
+```
+Caractères       Significations
+   -eq	         est égal à
+   -ne	         n'est pas égal à
+   -gt	         est plus grand que
+   -ge	         est plus grand ou égal à
+```
 
+<h2> Autres : </h2>
+```
+Caractères       Significations
+    = 		 initialisation d'une constante numérique2)
+    == 		 est égal à
+    != 		 une différence
+    > 		 plus grand que
+    >= 		 plus grand ou égal que
+    < 		 plus petit que
+    ⇐ 		 plus petit ou égal que
+```
+
+<hr>
 
 <h1> Conditions </h1>
 
