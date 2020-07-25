@@ -51,6 +51,38 @@ Caractères       Significations
 
 <hr>
 
+<h1> Opérateurs de test sur les fichiers </h1>
+<p> Peut servir pour différent script ^^ </p>
+
+```BASH
+Opérateurs       Significations
+──────────	 ──────────────
+-e fichier 	Renvoie 0 si le fichier existe.
+-d fichier 	Renvoie 0 si le fichier existe et est un répertoire.
+-f fichier 	Renvoie 0 si le fichier existe et est un fichier 'normal'.
+-w fichier 	Renvoie 0 si le fichier existe et est en écriture.
+-x fichier 	Renvoie 0 si le fichier existe et est exécutable.
+f1 -nt f2 	Renvoie 0 si f1 est plus récent que f2.
+f1 -ot f2 	Renvoie 0 si f1 est plus vieux que f2. 
+```
+
+<h2>Exemple : </h2>
+
+```BASH
+#!/bin/bash
+ 
+echo -n "Nom du fichier :" && read fichier
+
+if [ -e "$fichier" ]; 
+     then
+     echo "Le fichier existe"
+     else
+     echo "Le fichier n'existe pas ou alors il n'est pas dans le répertoire ainsi."
+fi
+```
+
+<hr>
+
 <h1> Conditions </h1>
 
 <h2> Condition [IF] </h2>
