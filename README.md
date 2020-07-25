@@ -10,6 +10,7 @@ echo "Hello World"
 <hr>
 
 <h1> Les différentes variables spéciales </h1>
+
 ```BASH
 Nom	fonction
 
@@ -20,6 +21,7 @@ $0	nom du script
 $n	contient l'argument n, n étant un nombre
 $!	contient le PID de la dernière commande lancée
 ```
+
 <hr>
 <h1>Opérateurs de comparaison</h1>
 
@@ -30,7 +32,7 @@ Caractères       Significations
    -ne	         n'est pas égal à
    -gt	         est plus grand que
    -ge	         est plus grand ou égal à
-   ```
+```
 
 <h2> Autres : </h2>
 
