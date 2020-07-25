@@ -9,10 +9,23 @@ echo "Hello World"
 ```
 <hr>
 
+<h1> Les différentes variables spéciales </h1>
+```BASH
+Nom	fonction
+
+$*	contient tous les arguments passés à la fonction
+$#	nombre d'arguments
+$?	code de retour de la dernière opération
+$0	nom du script
+$n	contient l'argument n, n étant un nombre
+$!	contient le PID de la dernière commande lancée
+```
+<hr>
 <h1>Opérateurs de comparaison</h1>
 
 ```BASH
 Caractères       Significations
+──────────	 ──────────────
    -eq	         est égal à
    -ne	         n'est pas égal à
    -gt	         est plus grand que
@@ -23,6 +36,8 @@ Caractères       Significations
 
 ```BASH
 Caractères       Significations
+──────────	 ──────────────
+
     = 		 initialisation d'une constante numérique2)
     == 		 est égal à
     != 		 une différence
