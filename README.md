@@ -8,16 +8,18 @@
 echo "Hello World"
 ```
 <h1>Opérateurs de comparaison</h1>
-```
+
+```BASH
 Caractères       Significations
    -eq	         est égal à
    -ne	         n'est pas égal à
    -gt	         est plus grand que
    -ge	         est plus grand ou égal à
-```
+   ```
 
 <h2> Autres : </h2>
-```
+
+```BASH
 Caractères       Significations
     = 		 initialisation d'une constante numérique2)
     == 		 est égal à
