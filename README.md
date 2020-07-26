@@ -246,7 +246,7 @@ if (( file == 'a-zA-Z0-9' ))
 
 Comme toute personne, tout le monde a voulu faire un script avec différentes couleurs pour différenciés quelque chose de spéciale dans le script ou bien autre chose ou bien pour faire joli.
 
-───────────────────────────────────────────────────────────────────────────────────────────────
+<hr>
 
 toute commande sous linux, il faut utiliser une syntaxe par défaut et y donner quelques paramètres. Pour les couleurs c’est le même principe.
 
@@ -258,9 +258,11 @@ echo -e '\033[A;B;Cm toto \033[0m'
 
 Dans la commande ci-dessus, nous pouvons constater qu’il y a 3 paramètres présents: A, B et C..
 
+```
 A = un effet affecté au texte affiché 
 B = à la couleur du texte 
 C : identifie la couleur du fond du texte affiché
+```
 
 Et enfin on termine avec 
 
