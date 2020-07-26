@@ -240,3 +240,78 @@ if (( file == 'a-zA-Z0-9' ))
 ```
 
 <hr>
+
+<h1> Les effets, les couleurs. </h1>
+<p> 
+
+Comme toute personne, tout le monde a voulu faire un script avec différentes couleurs pour différenciés quelque chose de spéciale dans le script ou bien autre chose ou bien pour faire joli.
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+toute commande sous linux, il faut utiliser une syntaxe par défaut et y donner quelques paramètres. Pour les couleurs c’est le même principe.
+
+```BASH
+
+echo -e '\033[A;B;Cm toto \033[0m'
+
+```
+
+Dans la commande ci-dessus, nous pouvons constater qu’il y a 3 paramètres présents: A, B et C..
+
+A = un effet affecté au texte affiché 
+B = à la couleur du texte 
+C : identifie la couleur du fond du texte affiché
+
+Et enfin on termine avec 
+
+```
+\033[0m 
+
+```
+qui indique au terminal de revenir aux couleurs définies par défaut.
+
+ </p>
+<h2> Effets : </h2>
+
+```BASH
+Code	Effet
+────    ─────
+0	Normal
+1	Gras
+21	Non-gras
+2	Sombre
+22	Non-sombre
+3	Italique
+23	Non-italique
+4	Souligné
+24	Non-souligné
+5	Clignotant
+25	Non-clignotant
+7	Inversé
+27	Non-inversé
+8	Invisible
+28	Non-invisible
+9	Barré
+29	Non-barré
+```
+
+<h2> Couleurs </h2>
+
+```BASH
+Couleur texte  Couleur fond     Couleur	
+─────────────  ──────────── ────────────── 
+      30	     40	         Noir
+      31	     41          Rouge
+      32             42          Vert
+      33             43		 Jaune
+      34             44		 Bleu
+      35             45		 Magenta
+      36             46          Cyan
+      37             47          Blanc
+```
+
+<h3>Exemple : </h3>
+
+```BASH
+ echo -e "\033[3;31;30m 0xkalm \033[1;34m est\033[9;33m passionné par l'infosec \033[0m"
+ ```
