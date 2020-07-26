@@ -268,7 +268,6 @@ Et enfin on termine avec
 
 ```
 \033[0m 
-
 ```
 qui indique au terminal de revenir aux couleurs définies par défaut.
 
